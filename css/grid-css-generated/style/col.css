@@ -1,0 +1,33 @@
+/* ---
+  Grid CSS Column Style sheet
+
+  http://www.gridcss.com/
+--- */
+
+/* Section */
+.section {
+  clear: both;
+  margin: 0px;
+  padding: 0px;
+}
+/* Column */
+.col {
+  background: #FFF;
+  text-align: center;
+  padding: 10px 0;
+  display: block;
+  float:left;
+  margin: 1% 0 1% 2%;
+}
+.col:first-child { margin-left: 0 !important; }
+
+/* Row */
+.row:before,
+.row:after { content:""; display:table; }
+.row:after { clear:both;}
+.row { zoom:1; /* For IE 6/7 */ }
+
+  /* Full Width below 768 pixels */
+@media only screen and (max-width: 768px) {
+  .col {  margin: 1% 0 1% 0%; }
+}

@@ -1,0 +1,21 @@
+/* ---
+  Grid CSS = [ 9 Grids ]
+
+  http://www.gridcss.com/
+--- */
+
+/* Grid 1 of 9*/
+.grid_1_of_9{ width: 9.333% }
+.grid_2_of_9{ width: 20.667% }
+.grid_3_of_9{ width: 32% }
+.grid_4_of_9{ width: 43.333% }
+.grid_5_of_9{ width: 54.667% }
+.grid_6_of_9{ width: 66% }
+.grid_7_of_9{ width: 77.333% }
+.grid_8_of_9{ width: 88.667% }
+.grid_9_of_9{ width: 100% }
+
+/* Full Width below 768 pixels */
+@media only screen and (max-width: 768px) {
+  [class*='grid_'] { width: 100%; }
+}

@@ -1,0 +1,18 @@
+/* ---
+  Grid CSS = [ 6 Grids ]
+
+  http://www.gridcss.com/
+--- */
+
+/* Grid 1 of 6*/
+.grid_1_of_6{ width: 15% }
+.grid_2_of_6{ width: 32% }
+.grid_3_of_6{ width: 49% }
+.grid_4_of_6{ width: 66% }
+.grid_5_of_6{ width: 83% }
+.grid_6_of_6{ width: 100% }
+
+/* Full Width below 768 pixels */
+@media only screen and (max-width: 768px) {
+  [class*='grid_'] { width: 100%; }
+}

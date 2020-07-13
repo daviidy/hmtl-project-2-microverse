@@ -1,0 +1,20 @@
+/* ---
+  Grid CSS = [ 8 Grids ]
+
+  http://www.gridcss.com/
+--- */
+
+/* Grid 1 of 8*/
+.grid_1_of_8{ width: 10.75% }
+.grid_2_of_8{ width: 23.5% }
+.grid_3_of_8{ width: 36.25% }
+.grid_4_of_8{ width: 49% }
+.grid_5_of_8{ width: 61.75% }
+.grid_6_of_8{ width: 74.5% }
+.grid_7_of_8{ width: 87.25% }
+.grid_8_of_8{ width: 100% }
+
+/* Full Width below 768 pixels */
+@media only screen and (max-width: 768px) {
+  [class*='grid_'] { width: 100%; }
+}

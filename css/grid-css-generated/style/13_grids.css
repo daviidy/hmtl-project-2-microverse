@@ -1,0 +1,25 @@
+/* ---
+  Grid CSS = [ 13 Grids ]
+
+  http://www.gridcss.com/
+--- */
+
+/* Grid 1 of 13*/
+.grid_1_of_13{ width: 5.846% }
+.grid_2_of_13{ width: 13.692% }
+.grid_3_of_13{ width: 21.538% }
+.grid_4_of_13{ width: 29.385% }
+.grid_5_of_13{ width: 37.231% }
+.grid_6_of_13{ width: 45.077% }
+.grid_7_of_13{ width: 52.923% }
+.grid_8_of_13{ width: 60.769% }
+.grid_9_of_13{ width: 68.615% }
+.grid_10_of_13{ width: 76.462% }
+.grid_11_of_13{ width: 84.308% }
+.grid_12_of_13{ width: 92.154% }
+.grid_13_of_13{ width: 100% }
+
+/* Full Width below 768 pixels */
+@media only screen and (max-width: 768px) {
+  [class*='grid_'] { width: 100%; }
+}

@@ -1,0 +1,15 @@
+/* ---
+  Grid CSS = [ 3 Grids ]
+
+  http://www.gridcss.com/
+--- */
+
+/* Grid 1 of 3*/
+.grid_1_of_3{ width: 32% }
+.grid_2_of_3{ width: 66% }
+.grid_3_of_3{ width: 100% }
+
+/* Full Width below 768 pixels */
+@media only screen and (max-width: 768px) {
+  [class*='grid_'] { width: 100%; }
+}
