@@ -5,3 +5,9 @@
 #navbar div a {
     float: right;
 }
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
