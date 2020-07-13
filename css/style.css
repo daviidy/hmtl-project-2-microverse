@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #welcome-section {
     height: 100vh;
     display: flex;
@@ -14,7 +20,7 @@
 }
 
 #welcome-section p{
-  margin-top: -3rem;
+  margin-top: 0;
   font-size: 3rem;
   color: #BE3144;
   font-style: italic;
@@ -54,4 +60,29 @@ nav div a:hover,
 nav div a:active {
     background-color: #45567D;
 
+}
+
+#projects {
+    background-color: #45567D;
+    text-align: center;
+    padding-top: 4rem;
+    
+}
+
+#projects h2 {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    width: 40%;
+    margin: 0 auto;
+    font-size: 3rem;
+}
+
+.projcet-tile {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.project-tile a {
+    
 }
