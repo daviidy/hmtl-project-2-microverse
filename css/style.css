@@ -2,12 +2,29 @@
     height: 100vh;
 }
 
-#navbar div a {
-    float: right;
-}
+
 
 nav {
-  position: fixed;
-  top: 0;
-  left: 0;
+    display:flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #BE3144;
+    width: 100%;
+    justify-content: flex-end; 
+    align-items: center;
+    height: 5.2rem;
+}
+
+nav div a{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1.5rem;
+}
+
+nav div a:hover,
+nav div a:active {
+    background-color: #45567D;
+    
 }
